@@ -1,0 +1,150 @@
+nav.header{
+    position: fixed;
+    top: 2.3rem;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    background-color: white;
+}
+nav.header2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+@media (max-width: 992px){
+    nav.header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 99999;
+        background-color: white;
+    }
+}
+.content{
+    margin-top: 7rem;
+}
+.search-bar{
+    margin-top: 2rem;
+}
+li.store{
+    font-size: 1.1rem !important;
+}
+a.h3.text-decoration-none.d-flex.justify-content-center{
+    font-size: 1.4rem !important;
+    text-wrap: nowrap;
+}
+.aktif{
+    display: none;
+}
+.shopping-cart{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.cashier-card{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}
+.veven{
+    display: flex;
+    gap: 0.8rem;
+}
+.vendaor{
+    border-bottom: 2px solid gainsboro;
+    padding-top: 0.5rem;
+}
+.hapusall{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border-bottom: 2px solid gainsboro;
+    margin-bottom: 0.5rem;
+    width: 65vw;
+}
+.hapusall a{
+    color: #59ab6e ;
+    font-weight: 800;
+}
+.can{
+    color: gray;
+}
+.can:hover{
+    background-color: gainsboro;
+    border-radius: 50%;
+}
+.vendors-prod{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vendor-rev{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.prod-det{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.plusmin{
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quantity{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-wrap: wrap;
+    width: 30%;
+    margin-top: 2rem;
+}
+.iconquan{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+}
+.vendy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+.quanti{
+    font-size: 1.6rem;
+}
+.linkdel{
+    margin-top: -1.6rem;
+}
+.prod-img{
+    width: 7rem;
+    height: 7rem;
+}
+.cekvendor{
+    margin-top: -0.5rem;
+}
+.cekitem{
+    margin-top: 3rem;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gainsboro;
+    padding-bottom: -0.5rem;
+    margin-bottom: 0.5rem;
+}
+.totalkan{
+    width: 25vw;
+    padding-left: 2rem;
+}
